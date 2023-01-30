@@ -39,7 +39,7 @@ describe 'ruby app main job:' do
       tmps = template.render('bootstrap' => 'app.rb')
 
       exec_line = tmps.each_line do |line|
-        break if line.include? 'bundle exec'
+        break line if line.include? 'bundle exec'
       end
 
       expect(exec_line).to include('bundle exec ruby app.rb')
