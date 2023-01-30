@@ -1,0 +1,29 @@
+name: my-ruby-app
+version: 0+dev.3
+commit_hash: 40f8efa
+uncommitted_changes: true
+jobs:
+- name: rubyweb
+  version: 0231dc880bc885d5ba8cdf891c2ee32cb3dca4141b83fb1ed335e734026df2ed
+  fingerprint: 0231dc880bc885d5ba8cdf891c2ee32cb3dca4141b83fb1ed335e734026df2ed
+  sha1: sha256:a05a09dbafafc0d399a5224b419a7be050f9de226b906a7e14d4d251d4aa1969
+  packages:
+  - ruby-3.0
+  - ruby-2.7
+packages:
+- name: ruby-2.7
+  version: 270aef9db71b06154fc7c43e1246884fd4a6e84ba96e50c161b2c76e5f85e35d
+  fingerprint: 270aef9db71b06154fc7c43e1246884fd4a6e84ba96e50c161b2c76e5f85e35d
+  sha1: sha256:e276b68423ca270a4bef59d078b3c86651c0366dd787fa36b88feebdd8b410da
+  dependencies: []
+- name: ruby-3.0
+  version: 85423c6c97c04c63bc86608b50be1e4f618e4119bd8a472a242708f7e2c8c916
+  fingerprint: 85423c6c97c04c63bc86608b50be1e4f618e4119bd8a472a242708f7e2c8c916
+  sha1: sha256:144d8637b16d4bd7b529aa8b40d6398bf12bdf6e3b96127efb09df67a878a2cb
+  dependencies: []
+- name: rubyweb
+  version: ec497014cdd6078383930c3335303df733188a191afe66863a76dfa69c270604
+  fingerprint: ec497014cdd6078383930c3335303df733188a191afe66863a76dfa69c270604
+  sha1: sha256:c445cb2f7048ba3bf2a1b01cdec4e4effd85cdb212a47950c30b645a84aeaa4b
+  dependencies:
+  - ruby-3.0
